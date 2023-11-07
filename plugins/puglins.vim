@@ -34,6 +34,7 @@ Plug 'nvim-telescope/telescope.nvim'
 "Colos Picker
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'rstacruz/vim-hyperstyle'
-
+"Multiselector
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 

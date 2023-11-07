@@ -1,0 +1,26 @@
+{
+  "suggest.noselect": false,
+  "languageserver": {
+    "intelephense": {
+      "command": "intelephense",
+      "args": ["--stdio"],
+      "filetypes": ["php"],
+      "initializationOptions": {
+        "storagePath": "/tmp/intelephense"
+      }
+    }
+  },
+  "html-css-support.styleSheets": [
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
+        "/style.css",
+        "style.css"
+    ],
+  "html-css-support.enabledLanguages": [
+        "html",
+        "vue",
+        "blade",
+        "htmldjango",
+        "typescriptreact",
+        "javascriptreact"
+    ]
+}
