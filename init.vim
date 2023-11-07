@@ -8,6 +8,9 @@ set relativenumber
 set sw=2
 set noshowmode
 
+"HTML
+set omnifunc=htmlcomplete#CompleteTags
+
 so ~/AppData/Local/nvim/plugins/puglins.vim
 so ~/AppData/Local/nvim/maps/maps.vim 
 so ~/AppData/Local/nvim/coc/settings.vim
